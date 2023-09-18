@@ -1,0 +1,2 @@
+cobc -c -o MyFunction.o Func.cob
+cobc -x -o MainProgram Main.cob MyFunction.o
